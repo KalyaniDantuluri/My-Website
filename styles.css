@@ -1,0 +1,100 @@
+/*External CSS*/
+
+
+/* syntax of CSS:
+selector ---> who do you want to modify in your web page?
+{   
+    property:value;  
+
+    
+    property --> what about that selector do you want to change?
+    value---> How do you want to change the property;
+         
+} 
+*/
+
+body {
+    background-color: #e4f9f5;
+}
+
+hr {
+    border-style: none;
+    border-top-style: dotted;
+    border-color: grey;
+    border-width: 5px;
+    width: 5%
+}
+
+h1 {
+    color: #66BFBF;
+}
+
+h2 {
+    color: #66BFBF;
+}
+
+h3 {
+    font-size: 25px;
+    color: #7D1E6A;
+}
+
+img:hover {
+    background-color: #e4f9f5;
+    border-radius: 50%;
+}
+
+.circular {
+    background-color: #e4f9f5;
+    border-radius: 100%;
+}
+
+p {
+    color: #AC7D88;
+}
+
+li {
+    color: #2E0249;
+    font-size: 20px;
+}
+
+table {
+    font-size: 20px;
+}
+
+address {
+    font-size: 20px;
+    color: #630606;
+}
+
+.contact {
+    font-size: 20px;
+}
+
+strong {
+    font-size: 20px;
+    color: #297F87;
+}
+
+.more {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 25px;
+    color: #297F87;
+}
+
+a {
+    font-size: 20px;
+}
+
+.cont {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.feed {
+    font-size: 25px;
+}
+
+.know {
+    font-size: 20px;
+}
